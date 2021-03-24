@@ -1,0 +1,90 @@
+:root {
+    background-color: #f8f8ff;
+    font-size: 62.5%;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 5px 0 5px;
+    color: darkblue;
+  }
+  
+  .container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin:  0 auto;
+    font-size: 2rem;
+  }
+
+  .container > * {
+    width: 100%;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-center {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .button {
+    border: 0.1rem solid darkblue;
+    text-align: center;
+    text-decoration: none;
+    width: 10rem;
+    padding: 0.2rem 0;
+    margin: 0.5rem 0 0.5rem 0;
+    font-size: 20px;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.3rem 1rem 0 blue;
+  }
+
+  .timer {
+    font-size: 2rem;
+    position: absolute;
+    text-align: right;
+    bottom: 50px;
+    right: 30px;
+  }
+  
+  .scores {
+    font-size: 2rem;
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+  }
+
+  .PA {
+    font-size: 2rem;
+    position: absolute;
+    bottom: 120px;
+    left: 30px;
+  }

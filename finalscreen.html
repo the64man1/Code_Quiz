@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Quiz Over!</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="homepage" class="flex-center flex-column">
+        <h1>
+          Game Over!<br>
+          Final Score: <span id="lastScore"></span>
+        </h1>
+        <form>
+        <input type="text" name="username" id="username" placeholder="Your name here" />
+        <button type="submit" class="button" id="saveScore" disabled >
+          Save
+        </button>
+        </form>
+        <a class="button" href="./questions.html">Play Again</a>
+        <a class="button" href="./highscores.html">View High Scores</a>
+      </div>
+    </div>
+    <script src="./assets/js/finalscreen.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/questions.css" />
+        <title>Code Challenge Questions</title>
+    </head>
+    <body>
+      <div class="container">
+        <div id="game" class="justify-center flex-column">
+        <h2 id="question">Answer the following question:</h2>
+        <div class="choice-box">
+          <p class="answer-choice" data-number="1">1. </p>
+        </div>
+        <div class="choice-box">
+          <p class="answer-choice" data-number="2">2. </p>
+        </div>
+        <div class="choice-box">
+          <p class="answer-choice" data-number="3">3. </p>
+        </div>
+        <div class="choice-box">
+          <p class="answer-choice" data-number="4">4. </p>
+        </div>
+        <div class="result">
+          <p id="result"></p>
+        </div>
+        <div id="hud">
+          <div id="hud-item">
+            <p class="hud-prefix">
+              Timer
+            </p>
+            <h1 class="hud-main-text" id="timer">
+              60
+            </h1>
+          </div>
+          <div id="hud-item">
+            <p class="hud-prefix">
+              Score
+            </p>
+            <h1 class="hud-main-text" id="score">
+              0/5
+            </h1>
+          </div>
+        </div>
+      </div>
+    <script src="./assets/js/questions.js"></script>
+    </body>
+</html>

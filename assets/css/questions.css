@@ -1,0 +1,49 @@
+.choice-box {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1.5rem;
+    border: 0.1rem solid darkblue;
+    background-color: white
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.choice-box:hover {
+    cursor: pointer;
+    box-shadow: 0 0.3rem 1rem 0 blue;
+}
+
+.answer-choice {
+    padding: 1rem 1.5rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+#result {
+    font-size: 2rem;
+    padding: 15px 0 15px 0;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+.hud-main-text {
+    text-align: center;
+  }
