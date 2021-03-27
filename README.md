@@ -10,3 +10,6 @@ I completed this exercise with the help of the Youtube series from James Q. Quic
 
 Link to website hosting the program: https://the64man1.github.io/Code_Quiz/<br>
 Link to Github where source files are hosted: https://github.com/the64man1/Code_Quiz/
+
+![Code-Quiz-Pic](https://user-images.githubusercontent.com/74144055/112735324-1ee1c900-8f19-11eb-8abb-67b064d4da32.png)
+
